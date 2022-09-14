@@ -1,0 +1,31 @@
+html, body {
+  background-color:red;
+  background-image:url('https://htmlcolorcodes.com/assets/images/colors/bright-blue-color-solid-background-1920x1080.png');
+  background-size:cover;
+  height: 100%;
+  width: 100%;
+}
+#join{
+  background-color:black;
+  background-image:url('');
+  color:white;
+  width:70%;
+  height:60%;
+  padding:10px 10px 10px 10px;
+  border-radius:10px;
+}
+input{
+  background-color:black;
+  color:yellow;
+  border-radius:2px;
+  border:2px solid yellow;
+  width:60%;
+  height:30px;
+  text-align:center;
+}
+button{
+  background-color:yellow;
+  color:black;
+  border:2px solid white;
+  padding:10px 10px 10px 10px;
+}

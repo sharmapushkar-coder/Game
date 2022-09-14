@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Home-Dino | Pushkar</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script> 
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+
+<script>
+  var firebaseConfig = {
+   apiKey: "AIzaSyCOW6gkzzMZC_Xgms4qoVfFGbYMvYeGkXs",
+   authDomain: "help-cddo.firebaseapp.com",
+   projectId: "help-cddo",
+   storageBucket: "help-cddo.appspot.com",
+   messagingSenderId: "762913813530",
+   appId: "1:762913813530:web:61a984cab14d9b1bce0da3"
+  };
+  firebase.initializeApp(firebaseConfig);
+</script>
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <center>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <div id="join">
+      <h3>Enter a code to Join</h3>
+      <br></br>
+      <input id="code-join"maxlength="20"placeholder="Enter the Room code">
+      <br></br>
+      <input id="name"maxlength="10"placeholder="Enter your name.">
+      <br></br>
+      <button onclick="join()"id="join_btn">Connect</button>
+      <br></br>
+      <b>---------------  or  ---------------</b>
+      <br></br>
+      <button onclick="location.href='create/#from=join&utm-medium=create_btn'"id="create_btn">Create a Room</button>
+      <br></br>
+      <b id="info"></b>
+    </div>
+  </center>
+  <br></br>
+  <br></br>
+  <br></br>
+  <br></br>
+  <br></br>
+  <br></br>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="dark" defer></script> 
+  <div style="position:fixed;top:5px;">
+    © Pushkar_7320 <b onclick="location.href='https://instagram.com/Pushkar_7320'">Contact</b>
+  </div>
+</body>
+
+</html>
